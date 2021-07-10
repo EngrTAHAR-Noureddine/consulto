@@ -5,6 +5,7 @@ html,body{
     width: 100%;
 }
 nav{
+    z-index: 3;
     height: 10%;
     width: 100%;
     position: fixed;
@@ -99,11 +100,52 @@ nav .log{
 
 .contents .itemOneP{
         width: 100%;
-        height: 12%;
+        height: 10%;
         background-color: beige;
-        margin-bottom: 0.5%;
+        margin-top: 1%;
+}
+.contents .itemOneP_titleCards{
+    width: 100%;
+    height: 6%;
+    background-color: beige;
+    margin-top: 1%;
+}
+.contents .itemOneP_cards{
+    width: 100%;
+    height: 20%;
+    background-color: beige;
+    margin-top: 1%;
 }
 
+
+/* pictureDoc */
+.pictureDoc {
+   z-index: 0;
+    width: 100%;
+    height: 80%;
+    background-color: aquamarine;
+    margin-top: 1%;
+}
+
+.pictureDoc .consultant{
+        z-index: 1;
+        position: absolute;
+        margin-top: 5%;
+        left: 5%;
+        height: 15%;
+        width: 20%;
+        background-color: white;
+
+}
+.pictureDoc .serviceNum{
+    z-index: 1;
+    position: absolute;
+    margin-top: 15%;
+    right: 5%;
+    height: 15%;
+    width: 20%;
+    background-color: white;
+}
 /*Second Page*/
 
 .SecondPage{
