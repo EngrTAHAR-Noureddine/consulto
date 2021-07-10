@@ -154,3 +154,64 @@ nav .log{
     background-color: green;
 
 }
+.SecondPage .firstHalf{
+    background-color: chartreuse;
+    width: 100%;
+    height: 70%;
+
+}
+.SecondPage .secondHalf{
+  background-color: blueviolet;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+}
+.secondHalf div:nth-child(1){
+    background-color: blue;
+    width: 100%;
+    height: 60%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.secondHalf div:nth-child(1) .textSecH{
+    background-color: red;
+    width: 80%;
+    height: 100%;
+    display: inline-block;
+}
+
+
+.secondHalf div:nth-child(1) .textSecH .fTextSecH{
+        width: 100%;
+        height: 60%;
+        background-color: antiquewhite;
+}
+.secondHalf div:nth-child(1) .textSecH .sTextSecH{
+    width: 100%;
+    height: 30%;
+    background-color: brown;
+}
+
+.SecondPage .cardsSecH{
+    width: 100%;
+    height: 35%;
+    background-color: chocolate;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.SecondPage .cardsSecH .cardCat{
+        width: 20%;
+        height: 100%;
+        margin: 0px 1%;
+        background-color:aqua;
+}
+
+.SecondPage .seeSecH{
+    width: 100%;
+    height: 15%;
+    background-color: cornflowerblue;
+}
