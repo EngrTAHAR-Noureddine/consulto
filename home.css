@@ -138,26 +138,83 @@ nav .log{
         font-size: 30px;
 }
 .contents  .item_title{
-    font-size: 80px;
+    font-size: 100px;
     font-weight: bold;
 }
 .itemOneP p{
         font-size: 18px;
 }
+.contents .rowSearch{
+    flex-direction: row;
+}
+.itemOneP .searchDiv{
+    width: 70%;
+    height: 100%;
+    background-color: blue;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.itemOneP .searchDiv .regionDiv{
+    width: 40%;
+    height: 100%;
+    background-color: yellowgreen;
+}
+.itemOneP .searchDiv .inputDiv{
+    width: 40%;
+    height: 100%;
+    background-color: tomato;
+}
+.itemOneP .searchDiv .searchButtonDiv{
+    width: 20%;
+    height: 100%;
+    background-color: aqua;
+}
+
 
 .contents .itemOneP_titleCards{
     width: 100%;
     height: 6%;
     background-color: beige;
     margin-top: 1%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
+.contents .itemOneP_titleCards div:nth-child(1){
+
+    width: 70%;
+    height: 100%;
+    background-color: blue;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .contents .itemOneP_cards{
     width: 100%;
     height: 20%;
     background-color: beige;
     margin-top: 1%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
 }
-
+.contents .itemOneP_cards div:nth-child(1){
+    width: 70%;
+    height: 70%;
+    background-color: blue;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contents .itemOneP_cards div:nth-child(1) .cardLook{
+    width: 30%;
+    height: 100%;
+    margin: 0px 2%;
+    background-color:aqua;
+}
 
 /* pictureDoc */
 .pictureDoc {
