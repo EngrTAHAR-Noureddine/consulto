@@ -432,13 +432,13 @@ nav .log{
 
 }
 .SecondPage .secondHalf{
-  background-color: blueviolet;
+  background-color: #F1F3F8;
     width: 100%;
     height: 60%;
     align-items: center;
 }
 .secondHalf div:nth-child(1){
-    background-color: blue;
+    background-color: transparent;
     width: 100%;
     height: 60%;
     display: inline-flex;
@@ -447,7 +447,7 @@ nav .log{
 }
 
 .secondHalf div:nth-child(1) .textSecH{
-    background-color: red;
+    background-color: transparent;
     width: 80%;
     height: 100%;
     display: inline-block;
@@ -457,32 +457,83 @@ nav .log{
 .secondHalf div:nth-child(1) .textSecH .fTextSecH{
         width: 100%;
         height: 60%;
-        background-color: antiquewhite;
+        background-color: transparent;
+        align-items: center;
+
+
 }
+.secondHalf div:nth-child(1) .textSecH .fTextSecH div{
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #224CA1;
+}
+
 .secondHalf div:nth-child(1) .textSecH .sTextSecH{
     width: 100%;
     height: 30%;
-    background-color: brown;
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #62779A;
 }
 
 .SecondPage .cardsSecH{
     width: 100%;
     height: 35%;
-    background-color: chocolate;
+    background-color: transparent;
     display: inline-flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
 }
 
 .SecondPage .cardsSecH .cardCat{
         width: 20%;
-        height: 100%;
+        height: 90%;
         margin: 0px 1%;
-        background-color:aqua;
+        background-color:#DEF1FF;
+        border-radius: 10px;
+        display: inline-flex;
+        text-align:center;
+        flex-direction: column;
+        justify-content: center;
+}
+.SecondPage .cardsSecH .cardCat div img{
+    width: 30%;
+    height: 50%;
+}
+.SecondPage .cardsSecH .cardCat .divImg{
+   background-color: transparent;
+   width: 100%;
+   height: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .SecondPage .seeSecH{
     width: 100%;
     height: 15%;
-    background-color: cornflowerblue;
+    background-color: #F1F3F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SecondPage .seeSecH .txt_see{
+        width: 15%;
+        height: 70%;
+        background-color: #224CA1;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        border-radius: 100px;
 }
